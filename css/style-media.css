@@ -308,6 +308,10 @@ margin: 0px auto 40px auto;
 /*----------------------Block-8-----------------------------*/
 
 @media(max-width:769px){
+
+    .block-8{
+        padding: 60px 0px 50px 0px;
+    }
     .block-8-content {
         display: flex;
         flex-direction: column;
@@ -343,11 +347,48 @@ margin: 0px auto 40px auto;
     }
     .mail{
         margin: 30px 0px 0px 0px;
+        border: 1px solid #000;
+        max-width: 100%;
+    }
+
+    .button{
+        margin: 0px 0px 0px 0px;
     }
        
 }
 /*----------------------Block-10------------------------*/
 @media(max-width:769px){
+
+    .block-10{
+         height: 100%;
+        
+    }
+.block-10-content{
+    flex-direction: column;
+  
+    
+}
+.block-10-content-nav{
+    margin: 10px 0px 30px 0px;
+    max-width: 100%;
+}
+
+.nav-10{
+    display: flex;
+    justify-content: center;
+}
+.block-10-content-tel-1 {
+    margin: 0px 0px 10px 0px;
+     }
+
+.block-10-content-tel-2 {
+    margin: 0px 0px 20px 0px;
+     }
+
+
+
+
+    
     .block-10-content-logo {
         display: none;
 
