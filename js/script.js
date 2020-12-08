@@ -38,7 +38,7 @@ function togle2(){
 //---------------------------------------------------------------------------------------------------------------
 $(document).ready (function(){ // инициализация jquary
     $('.slider').slick({          // включаем слайдер
-        arrows:true,              // стрелки
+        arrows:false,              // стрелки
         dots:false,                // точки
         adaptiveHeight:true,      // подстраивает высоту слайда под картинку (slick-track - нужн одобавить свойство align-items:flex-start)
         slidesToShow: 3,          // количество показуемых слайдов
@@ -48,7 +48,7 @@ $(document).ready (function(){ // инициализация jquary
         infinite:true,            // определение бесконечной прокрутки
         initialSlide: 0,          // номер стартового слайда
         autoplay: true,           // автоматическая прокрутка слайдов
-        autoplaySpeed:2000,       // скорость автоматического пролистывания
+        autoplaySpeed:4000,       // скорость автоматического пролистывания
         pauseOnFocus:false,       // остановить слайдер при нажатии мыши
         pauseOnHover:false,       // остановить слайдер при наведении мыши
         pauseOnDotsHover:false,   // остановить слайдер при наведении на точки

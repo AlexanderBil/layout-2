@@ -1,5 +1,11 @@
 /*---------------Адаптив Content-header-------------------*/
-@media(max-width:1200px) {}
+@media(max-width:767px) {
+    .wrapper-1{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 @media(max-width:900px) {
     .region {
@@ -24,6 +30,7 @@
 
     .logotip {
         margin: 0px 0px 0px 10px;
+        z-index: 1;
     }
 }
 
@@ -32,8 +39,14 @@
         display: none;
     }
 
+    .ul-0 li{
+margin: 50px 0px 40px 0px;
+
+    }
+
     .region {
         display: none;
+
     }
 
     .burger-wrapper {
@@ -46,6 +59,14 @@
 
     .header {
         padding: 15px 0px;
+        position: absolute;
+        z-index: 1;
+
+    }
+
+    .mob-menu.active{
+        /* position: absolute; */
+        /* z-index: 10; */
     }
 
     .header-content {
@@ -62,8 +83,18 @@
 
 @media(max-width:769px) {
 
+    .box-1 {
+        position: relative;
+        height: 100vh;
+
+    }
+    .box-1 img {
+      object-fit: cover;
+      height: 100%;
+    }
+
     .box-1-info {
-        margin: 25px 0px 0px 0px;
+        margin: 100px 0px 0px 0px;
     }
 
     .box-1-exclusive {
@@ -76,7 +107,7 @@
 
     .box-1-text {
         padding: 0px 8px;
-        margin: 0px 0px 46px 0px;
+        margin: 0px 0px 200px 0px;
         max-width: 688px;
         color: #ffffff;
         font-family: "PT Sans Regular";
@@ -95,11 +126,13 @@
         letter-spacing: 1.5px;
         padding: 10px 30px;
         border: 3px solid #bb9c66;
+        
     }
 
 }
 
 @media(max-width:360px) {
+
 
 
     .box-1-title {
@@ -123,15 +156,19 @@
 
 /*--------------------Box-2----------------------*/
 @media(max-width:769px) {
+
+
+    .box-2{
+        margin: 30px 0px 0px 0px;
+    }
+
     .box-2-text { 
         font-size: 25px;
         }
         .box-2-picture {
             margin: 0px 0px 20px 0px;
          }
-         .box-1 {
-            margin: 0px 0px 55px 0px;
-        }
+
         .c2{
             margin: 0px 25px 0px 25px;
         }
@@ -162,12 +199,26 @@
     .box-3-item-bet { 
         width: 100%;
     }
+
+    .box-3-item-text {
+        margin: 0px 0px 10px 0px;
+         }
+
+         .box-3-item-bet { 
+            margin: 0px 0px 5px 0px;
+        }
     
 }
 
 /*-------------------------Block4---------------------------*/
 
 @media(max-width:769px) {
+
+    .box-4{
+padding: 30px 0px 30px 0px;
+
+    }
+
     .box-4-item1-2 {
         display: flex;
         align-items: center;
@@ -213,10 +264,12 @@
 
 @media(max-width:769px) {
     .block-5 {
-        display: block;
-        background-image: none;
-        padding: 0px 0px 0px 0px;
-        margin: 0px auto 45px auto;
+        background-image: url(../img/block-5/fon.png);
+        background-size: contain;
+        background-repeat: repeat;
+          display: flex;
+          flex-direction: column;
+         margin: 0px auto 45px auto;
     }
     .block-5-col { 
    margin: 0 auto;
@@ -224,6 +277,7 @@
     .block-5-col-item {         
         margin: 0px 0px 40px 0px;
      }
+
 
 }
 
