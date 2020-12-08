@@ -134,7 +134,6 @@ margin: 50px 0px 40px 0px;
 @media(max-width:360px) {
 
 
-
     .box-1-title {
         font-size: 20px;
         line-height: 25px;
@@ -149,8 +148,12 @@ margin: 50px 0px 40px 0px;
     }
     .box-1-info {
 
-        margin: 25px 0px 0px 0px;
+        margin: 100px 0px 0px 0px;
     }
+
+    .box-1-text {
+        margin: 0px 0px 100px 0px;
+     }
 
 }
 
